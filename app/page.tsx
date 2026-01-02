@@ -18,18 +18,6 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           className="max-w-4xl w-full text-center z-10"
         >
-          <div className="mb-12 flex justify-center">
-            <div className="relative p-6 bg-white rounded-3xl shadow-2xl border border-primary/10">
-              <Image
-                src="./public/logo1.jpeg"
-                alt="WE Logo"
-                width={400}
-                height={150}
-                priority
-                className="w-full max-w-[500px] h-auto"
-              />
-            </div>
-          </div>
 
           <h1 className="text-6xl md:text-7xl font-black text-primary mb-6 leading-tight">منصة WE التعليمية الذكية</h1>
           <p className="text-2xl text-muted-foreground mb-16 max-w-2xl mx-auto leading-relaxed">
@@ -53,7 +41,6 @@ export default function Home() {
       </main>
 
       <footer className="w-full py-8 border-t bg-white flex flex-col items-center gap-4">
-        <Image src="./public/logo2.jpeg" alt="WE Icon" width={60} height={60} />
         <p className="text-muted-foreground font-medium text-lg">
           جميع الحقوق محفوظة لمدارس WE للتكنولوجيا التطبيقية © ٢٠٢٦
         </p>
