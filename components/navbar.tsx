@@ -8,7 +8,7 @@ export function Navbar() {
     <nav className="w-full h-24 px-8 flex items-center justify-between border-b bg-white shadow-sm sticky top-0 z-50">
       <Link href="/" className="flex items-center gap-4 hover:opacity-80 transition-opacity">
         <Image
-          src="/images/img-20260102-wa0004.jpg"
+          src="./public/logo2.jpeg"
           alt="WE Applied Technology School Logo"
           width={180}
           height={60}
